@@ -1,4 +1,4 @@
-package example_app
+package main
 import (
 	"os"
 	"log"
@@ -23,4 +23,5 @@ func main () {
 	if err != nil {
 		log.Fatal("Could not listen: ", err)
 	}
+
 }
